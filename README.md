@@ -1,3 +1,1 @@
-# gcp_data_pipeline
-# gcp_data_pipeline
-# gcp_data_pipeline
+# Starting project using GCP to make a data pipeline
