@@ -6,6 +6,7 @@ on:
     - main
     paths:
       - '**.tf'
+      - '**.tfvars'
     pull_request:
 
 jobs:
@@ -20,7 +21,7 @@ jobs:
     
   steps:
   # checkout the repository to the GitHub Actions Runner
-  - name: checkout
+  - name: Checkout
     uses: actions/checkout@v2
   
   # install the latest version of Terraform CLI and configure the Terraform CLI configuration file with a Terraform Cloud user API token
